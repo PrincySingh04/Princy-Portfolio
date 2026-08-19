@@ -134,7 +134,7 @@ export const projects = [
       "Order confirmation",
     ],
     githubUrl: "https://github.com/PrincySingh04",
-    liveUrl: "",
+    liveUrl: "https://ecommerce-webapp-cyan-three.vercel.app/",
   },
   {
     title: "Boutique Management System",
