@@ -1,78 +1,32 @@
-# Princy Singh — Portfolio
+Princy Singh — Portfolio
 
-## Set up the contact form
+Welcome to my personal developer portfolio! This website is a collection of my work, skills, and projects as a Full Stack Developer. It was built to showcase what I can create and to make it easy for recruiters and developers to learn more about me.
 
-The contact form sends messages through Web3Forms. Your access key isn't
-hardcoded — it's read from an environment variable so it stays out of your
-source code.
+About the Project
 
-1. Copy `.env.example` to a new file named `.env`
-2. Open `.env` and replace the placeholder with your real Web3Forms access
-   key, so it looks like:
-   ```
-   VITE_WEB3FORMS_KEY=your-real-key-here
-   ```
-3. Restart `npm run dev` if it was already running (Vite only reads `.env`
-   on startup)
+This portfolio is built using React and Vite with a clean, responsive design. It includes sections for my introduction, technical skills, projects, experience, and contact information.
 
-`.env` is already listed in `.gitignore`, so it won't be committed if you
-push this project to GitHub.
+Tech Stack
+React.js
+Vite
+JavaScript
+HTML5
+CSS3
 
-## Run it
+Featured Projects
 
-```
-npm install
-npm run dev
-```
+Real Estate Platform — MERN application with authentication, property listings, image uploads, and search filters.
 
-Open the printed local URL in your browser.
+Deepfake Detection — AI project that detects manipulated images using Python and TensorFlow.
 
-## Change the profile picture
+Amazon Clone — Responsive e-commerce frontend built with HTML, CSS, JavaScript, and Bootstrap.
 
-Replace `public/profile.jpg` with your own image, keeping the same file
-name. No code changes needed.
+Boutique Management System — Python and MySQL based application for managing books and users.
 
-## Update the resume
+Princy Singh
 
-Replace `public/resume.pdf` with your own PDF, keeping the same file name.
-The "Download Resume" button will serve the new file automatically.
+GitHub: https://github.com/your-username
+LinkedIn: https://linkedin.com/in/your-profile
+Email: your@email.com
 
-## Update projects, skills, contact info, etc.
-
-Everything text-based lives in one file: `src/data/siteData.js`.
-Open it and edit the arrays/objects directly — add, remove, or change
-projects, skills, services, experience items, or contact details.
-
-## Project structure
-
-```
-public/
-  profile.jpg        your photo
-  resume.pdf          your resume
-src/
-  data/
-    siteData.js        all editable content
-    iconMap.js          icon lookup used by About/Skills
-  hooks/
-    useTypewriter.js    hero title typing animation
-  components/
-    Navbar.jsx
-    Hero.jsx
-    About.jsx
-    Skills.jsx
-    Services.jsx
-    Projects.jsx
-    Experience.jsx
-    WhyHireMe.jsx
-    Contact.jsx
-    Footer.jsx
-  App.jsx               composes all sections
-  App.css                all component styling
-  index.css              resets + theme color variables
-```
-
-## Theme colors
-
-Colors are defined as CSS variables at the top of `src/index.css`
-(`--cyan`, `--blue`, `--bg`, `--card`, etc). Change them there to
-re-theme the whole site in one place.
+Thanks for visiting my portfolio! Feel free to explore the projects or connect with me.
