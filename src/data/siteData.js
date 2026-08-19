@@ -21,7 +21,7 @@ export const profile = {
   intro:
     "Passionate Full Stack Developer with expertise in building scalable web applications using MERN, Python, and modern web technologies. I enjoy creating responsive, secure, and user-friendly digital experiences.",
   profileImage: "/profile.jpg",
-  resumeFile: "/resume.pdf",
+  resumeFile: "/PrincySingh_Resume.pdf",
 };
 
 export const about = {
