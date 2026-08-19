@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #0b0f19;
+  --card: #111827;
+  --card-border: rgba(0, 229, 255, 0.12);
+  --text: #e5e9f0;
+  --subtext: #94a3b8;
+  --nav-bg: rgba(11, 15, 25, 0.75);
+  --cyan: #00e5ff;
+  --blue: #3b82f6;
+  --green: #34d399;
+  --input-bg: #0b0f19;
+  --gradient-accent: linear-gradient(135deg, var(--cyan), var(--blue));
+}
+
+.light {
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --card-border: rgba(59, 130, 246, 0.15);
+  --text: #0b0f19;
+  --subtext: #475569;
+  --nav-bg: rgba(244, 247, 251, 0.8);
+  --input-bg: #f4f7fb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  font-family: inherit;
+}
