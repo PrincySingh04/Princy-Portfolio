@@ -25,8 +25,8 @@ Boutique Management System — Python and MySQL based application for managing b
 
 Princy Singh
 
-GitHub: https://github.com/your-username
-LinkedIn: https://linkedin.com/in/your-profile
-Email: your@email.com
+GitHub: https://github.com/PrincySingh04
+LinkedIn: www.linkedin.com/in/princy-singh-422a80312
+Email: princys549@email.com
 
 Thanks for visiting my portfolio! Feel free to explore the projects or connect with me.
